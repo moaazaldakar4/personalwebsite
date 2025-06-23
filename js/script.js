@@ -1,12 +1,5 @@
 
-/* ==========================toggle icon navbar======================= */
-let menuicon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
 
-menuicon.onclick = () => {
-   menuicon.classList.toggle('bx-x');
-   navbar.classList.toggle('active');
-};
 
 /* ==========================scroll section active link======================= */
 let sections = document.querySelectorAll('section');
@@ -48,10 +41,10 @@ navlinks.forEach((link) => {
 
 /* ==========================scroll reveal========================== */
 ScrollReveal({
-  reset: true,
-  distance: '80px',
-  duration: 1500,
-  delay: 20,
+  reset: false,
+  distance: '30px',
+  duration:800,
+  delay: 10,
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
@@ -61,7 +54,7 @@ ScrollReveal().reveal('.about-content p, .about-content, .about-content h3', { o
 
 /* ==========================typed js========================== */
 const typed = new Typed('.multi-text', {
-  strings: ['Graphic Designer', 'Web Developer'],
+  strings: ['AI Engineer', 'Web Developer'],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,

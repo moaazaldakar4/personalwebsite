@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const sr = ScrollReveal({
-      reset: true,
-      distance: '80px',
-      duration: 1500,
-      delay: 20,
+      reset: false,
+      distance: '30px',
+      duration: 800,
+      delay: 10,
     });
   
     sr.reveal('.home-content, .heading', { origin: 'top' });
@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const typed = new Typed('.text', {
     strings: [
       
-      'Moaaz Hani El Dakar is a creative graphic designer and web developer known for crafting unique logos, engaging PowerPoint presentations, eye-catching advertising posters, professional banners, and distinctive business cards. With skills in creating captivating promotional videos, he helps businesses effectively promote their products and services. Moaaz is dedicated to delivering high-quality designs that align with clients` visions and resonate with their target audiences.'
+      'I am an AI enthusiast and front-end developer with a strong foundation in machine learning, deep learning, and data analysis. My work spans practical applications like audio classification, generative models for drug discovery, and intelligent puzzle solvers using constraint satisfaction. I’m also experienced in web technologies like HTML, CSS, JavaScript, React, and Streamlit, and I enjoy building clean, responsive interfaces that integrate smoothly with AI-powered backends,Beyond the technical side, I’m a disciplined and motivated learner who’s always pushing to improve. My passion for fitness mirrors my approach to work—consistent, focused, and goal-driven. Whether I’m solving complex neural network problems, cleaning multilingual datasets, or designing efficient database systems, I bring a growth mindset, strong communication skills, and a deep curiosity to everything I do.'
     ],
-    typeSpeed: 5
+    typeSpeed: 6
   });
   const arabic = new Typed('.arabic', {
     strings: [
